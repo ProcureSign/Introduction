@@ -1,4 +1,4 @@
-wagger: '2.0'
+Swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
