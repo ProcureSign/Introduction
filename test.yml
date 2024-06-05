@@ -1,0 +1,25 @@
+id: authorized-check
+info:
+  name: Extract LocalStorage Authorization
+  author: zenelite123
+  severity: info
+  description: |
+    Extracts the value of `localStorage.getItem("authorized")` and logs it to the console.
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    extractors:
+      - type: regex
+        name: authorized_value
+        group: 1
+        part: body
+        regex:
+          - '"authorized"\s*:\s*"(.*?)"'
+
+    matchers:
+      - type: word
+        words:
+          - '<script>console.log(localStorage.getItem("authorized"));</script>'
